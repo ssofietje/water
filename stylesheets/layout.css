@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #FFFFFF;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+.mainblock {
+  margin: 0 auto;
+  width: 900px;
+  display: inline-flex;
+  padding-top: 120px;
+  padding-left: 170px;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.copyright {
+  padding: 5px;
+}
+
+.header {
+  align-self: center;
+  font-style: italic;
+  color:#313131;
+  font-weight: bold;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+      0% {
+
+        color: blue;
+      }
+
+      10% {
+
+        color: #8e44ad;
+      }
+
+      20% {
+
+        color: #1abc9c;
+      }
+
+      30% {
+
+        color: #d35400;
+      }
+
+      40% {
+
+        color: blue;
+      }
+
+      50% {
+
+        color: #34495e;
+      }
+
+      60% {
+
+        color: blue;
+      }
+
+      70% {
+
+        color: #2980b9;
+      }
+      80% {
+
+        color: #f1c40f;
+      }
+
+      90% {
+
+        color: #2980b9;
+      }
+
+      100% {
+
+        color: pink;
+      }
+    }
+
+
+
+img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.grid {
+  display: flex;
+  padding-bottom: 1rem;
+  padding-left: 240px;
+}
+
+.item {
+  position: relative;
+  flex: 1 0 22rem;
+  margin: 1rem;
+}
